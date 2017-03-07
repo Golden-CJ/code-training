@@ -1,0 +1,250 @@
+body {
+    background: #f5f5f5;
+}
+
+/*给整个页面设置最大最小宽度，保证页面不会因为屏幕过大或过小失真或变形*/
+.JD_layout {
+    min-width: 300px;
+    max-width: 640px;
+    margin: 0 auto;
+    position: relative;
+}
+
+/*顶部搜索区域*/
+.JD_header {
+    position: fixed;
+    width: 100%;
+    height: 40px;
+    left: 0;
+    top: 0;
+    z-index: 999;
+}
+
+.JD_header .JD_headerBox {
+    min-width: 300px;
+    max-width: 640px;
+    margin: 0 auto;
+    background: rgba(201,21,35,0);
+    position: relative;
+    height: 40px;
+}
+
+.JD_header .JD_headerBox .icon_logo {
+    background-position: 0 -103px;
+    height: 36px;
+    width: 60px;
+    position: absolute;
+    left: 10px;
+    top: 4px;
+}
+
+.JD_header .JD_headerBox .login {
+    position: absolute;
+    width: 50px;
+    height: 40px;
+    top: 0;
+    right: 0;
+    color: #fff;
+    text-align: center;
+    margin-top: 9px;
+}
+
+.JD_header .JD_headerBox form {
+    width: 100%;
+    height: 40px;
+    padding: 0 55px 0 75px;
+    position: relative;
+}
+
+.JD_header .JD_headerBox form input {
+    width: 100%;
+    height: 30px;
+    border-radius: 15px;
+    margin-top: 5px;
+    padding-left: 30px;
+}
+
+.JD_header .JD_headerBox form span {
+    background-position: -60px -109px;
+    position: absolute;
+    left: 80px;
+    top: 10px;
+    height: 20px;
+    width: 20px;
+}
+
+/*轮播图部分*/
+.JD_banner {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+.JD_banner ul {
+    width: 1000%;
+    display: flex;
+    transform: translateX(-10%);
+}
+.JD_banner ul li {
+    width: 10%;
+}
+.JD_banner ul li img {
+    width: 100%;
+    display: block;
+}
+.JD_banner ol {
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    transform: translateX(-64px);
+}
+.JD_banner ol li {
+    float: left;
+    width: 6px;
+    height: 6px;
+    border: 1px solid #cccccc;
+    border-radius: 50%;
+    margin: 5px;
+}
+.JD_banner ol li.show {
+    background-color: #fff;
+}
+
+/*导航栏部分*/
+.JD_nav {
+    width: 100%;
+}
+.JD_nav ul {
+    width: 100%;
+    padding: 10px 0;
+    background: #fff;
+    border-bottom: 1px solid #ccc;
+    margin-top: 10px;
+}
+.JD_nav ul li {
+    width: 25%;
+    float: left;
+    text-align: center;
+    margin-top: 5px;
+}
+.JD_nav ul li a {
+    width: 100%;
+    display: block;
+}
+.JD_nav ul li a img {
+    width: 40px;
+    height: 40px;
+    display: block;
+    margin: 0 auto;
+}
+.JD_nav ul li a p {
+    color: #666;
+    font-size: 12px;
+}
+
+/*商品导航部分*/
+.JD_product {
+    padding: 0 5px;
+}
+.JD_product .product {
+    width: 100%;
+    background-color: #fff;
+    margin-top: 10px;
+    box-shadow: 0 0 1px 1px #cccccc;
+}
+.JD_product .product .sk {
+    line-height: 34px;
+    color: #d8505c;
+    margin-left: 10px;
+}
+.JD_product .product .sk_title .sk_icon {
+    background: url("../images/seckill-icon.png") no-repeat;
+    width: 16px;
+    height: 20px;
+    background-size: 16px 20px;
+}
+.JD_product .product .times {
+    margin-top: 2px;
+}
+.JD_product .product .sk_title span {
+    float: left;
+    line-height: 15px;
+    text-align: center;
+    margin: 8px 0 0 10px;
+    display: block;
+}
+.JD_product .product .sk_title .time{
+    width: 15px;
+    height: 15px;
+    color: #fff;
+    background-color: #333333;
+}
+.JD_product .product .more {
+    margin: 8px 10px 0 0;
+}
+.JD_product .product .sk_item div{
+    width: 33.333333%;
+    float: left;
+}
+.JD_product .product .sk_item div a {
+    display: block;
+}
+.JD_product .product .sk_item div a img {
+    width: 100%;
+    display: block;
+}
+.JD_product .product .sk_item div a p {
+    text-align: center;
+    font-size: 12px;
+}
+.JD_product .product .sk_item div a p:nth-child(2) {
+    color: #d8505c;
+}
+.JD_product .product .productHead {
+    line-height: 34px;
+    position: relative;
+    padding-left: 20px
+}
+.JD_product .product .productHead::before {
+    content: "";
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    display: block;
+    width: 3px;
+    height: 12px;
+    background-color: #d8505c;
+}
+.JD_product .product .productBody a {
+}
+.JD_product .product .productBody a img {
+    border-top: 1px solid #cccccc;
+    width: 50%;
+}
+.JD_product .product .productBody a img:nth-child(1) {
+    float: left;
+    border-right: 1px solid #cccccc;
+}
+.JD_product .product .productBody a img:nth-child(2) {
+    float: right;
+}
+.JD_product .product .productBody a img:nth-child(3) {
+    float: right;
+}
+.JD_product .product .productBody a img:nth-child(4) {
+    float: right;
+}
+.JD_product .product .productBody a img:nth-child(5) {
+    float: left;
+}
+.JD_product .product .productBody a img:nth-child(6) {
+    float: left;
+}
+.JD_product .product .productBody a img:nth-child(7) {
+    float: left;
+}
+.JD_product .product .productBody a img:nth-child(8) {
+    float: right;
+}
+.JD_product .product .productBody a img:nth-child(9) {
+    float: right;
+}

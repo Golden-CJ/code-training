@@ -1,0 +1,314 @@
+.wx-w {
+    width: 990px;
+    height: 27px;
+    margin: 0 auto;
+}
+
+.wx-topbar {
+    background-color: #3A3A3A;
+}
+
+.wx-topbar-left em {
+    display: block;
+    width: 10px;
+    height: 12px;
+    margin: 7px 5px 0 5px;
+    background: url(../images/1.fw.png) 0px -2px no-repeat;
+    float: left;
+}
+
+.wx-topbar-left span a {
+    float: left;
+    font-size: 12px;
+    color: #999;
+    line-height: 27px;
+}
+
+.wx-topbar-left {
+    float: left;
+}
+
+.wx-topbar-right {
+    float: right;
+    position: relative;
+}
+
+.wx-topbar-right li  {
+    float: left;
+    font-size: 12px;
+    line-height: 27px;
+    /*position: relative;*/
+}
+.wx-topbar-right li a {
+    color: #999;
+}
+.wx-yy {
+    position: absolute;
+    top:27px;
+    right:55px;
+    display:none;
+    background: #FFF;
+    width:100px;
+    height:96px;
+    z-index: 2;
+    text-align: center;
+}
+.wx-yy .wx-yy2 {
+    float: left;
+    width: 100px;
+}
+.wx-yy .wx-yy1 {
+    float: left;
+    width: 100px;
+}
+
+.wx-topbar-right .wx-s {
+    width: 1px;
+    height: 15px;
+    background-color: #5B5B5B;
+    margin: 5px 15px 0 15px;
+}
+
+.wx-topbar-right .wx-q {
+    margin: 0 5px 0 10px;
+}
+
+.wx-li2 {
+    /*小三角*/
+    width: 7px;
+    height: 4px;
+    background: url(../images/1.fw.png) -20px -3px no-repeat;
+    margin: 13px 0 0 3px;
+}
+
+.wx-logo {
+    height: 78px;
+    background-color: #FFF;
+}
+
+.wx-logo-le {
+    /*width:216px;*/
+    /*height:22px;*/
+    margin-top: 18px;
+
+}
+
+.wx-logo-le a {
+    float: left;
+}
+
+.wx-logo-1 {
+    float: left;
+    width: 1px;
+    height: 20px;
+    background: #CCC;
+    margin: 6px 20px 0 20px;
+}
+
+.wx-logo-2 {
+    margin-top: 6px;
+    float: left;
+    font: 20px "微软雅黑";
+
+}
+
+.wx-logo-ri {
+    float: right;
+}
+
+.wx-logo-ri li {
+    float: left;
+    font-size: 16px;
+    margin: 10px 0 0 45px;
+    position: relative;
+
+}
+
+.wx-logo-ri .wx-1 {
+    float: left;
+    display: block;
+    width: 12px;
+    height: 11px;
+    margin-right: 13px;
+    background: url(../images/1.fw.png) -3px -20px no-repeat;
+}
+.wx-logo-ri1     {
+    color: #00AAEE;
+}
+
+.wx-2 {
+    float: left;
+    display: none;
+    position: absolute;
+    left: -23px;
+    width: 12px;
+    height: 11px;
+    color: #00AAEE;
+    background: url(../images/1.fw.png) -3px -20px no-repeat;
+}
+
+.wx-logo-ri1 a {
+    color: #00AAEE;
+}
+.wx-logo-ri2 {
+    color: #333;
+}
+.wx-logo-ri1 a:active {
+    color: #00AAEE;
+}
+
+.wx-banner {
+    height: 401px;
+    background-color: #D1D5D4;
+    position: relative;
+
+}
+
+.wx-screen {
+    width: 960px;
+    height: 400px;
+    position: absolute;
+    left: 63px;
+    overflow: hidden;
+
+}
+
+.wx-screen ul {
+    width: 5000px;
+    height: 400px;
+    position: absolute;
+
+}
+
+.wx-screen li {
+    width: 960px;
+    height: 400px;
+    float: left;
+}
+
+.wx-banner ol {
+    position: absolute;
+    top: 378px;
+    left: 410px;
+}
+
+.wx-banner ol li {
+    float: left;
+    width: 12px;
+    height: 12px;
+    background: #67615B;
+    border-radius: 50%;
+    margin-right: 12px;
+}
+
+.wx-banner ol li.current {
+    background: yellow;
+}
+.wx-banner-right {
+    width: 286px;
+    height: 295px;
+    background: #3A3A3A;
+    opacity: 0.6;
+    float: right;
+    position: absolute;
+    top: 25px;
+    right: 182px;
+}
+.wx-banner-right2 {
+    width: 122px;
+    height: 168px;
+    background: url(../images/444.png) 0 0 no-repeat;
+    float: right;
+    position: absolute;
+    top: 25px;
+    right: 55px;
+}
+.wx-banner-right-top {
+    margin: 20px 0 0 100px;
+}
+.wx-banner-right-top span {
+    font-size: 16px;
+    color: #FFF;
+    float: left;
+}
+.wx-banner-right-top p {
+    font-size: 12px;
+    color: #C3C4C4;
+    float: left;
+    margin-top: 4px;
+}
+.wx-banner-right-le {
+    float: left;
+}
+.wx-banner-right-2 i {
+    display: block;
+    width: 40px;
+    height: 40px;
+    background: url(../images/1.fw.png) -1px -90px no-repeat;
+    float: left;
+}
+.wx-banner-right-3 em {
+    display: block;
+    width: 40px;
+    height: 40px;
+    background: url(../images/1.fw.png) -1px -42px no-repeat;
+    float: left;
+    margin-top: 10px;
+}
+.wx-banner-right-2 {
+    margin: 20px 0 0 35px;
+}
+.wx-banner-right-3 {
+    margin-left: 35px;
+}
+.wx-banner-right-2 input {
+    width: 180px;
+    height: 40px;
+    float: left;
+}
+.wx-banner-right-3 input {
+    width: 180px;
+    height: 40px;
+    float: left;
+    margin: 10px 0 0 -10px;
+
+}
+
+.wx-banner-right-le p a {
+    font-size: 10px;
+    float: right;
+    margin: 7px 33px 0 0;
+    color: #fff;
+}
+
+.wx-banner-right-4  {
+    width: 220px;
+    height: 40px;
+    background: #00AAEE;
+    float: left;
+    margin: 17px 0 0 35px;
+    border-radius: 4px;
+
+}
+
+.wx-banner-right-4 span {
+    font-size: 20px;
+    color: #fff;
+}
+
+
+.wx-banner-right-5 a {
+    float: left;
+    margin: 12px 0 0 35px;
+    font-size: 8px;
+    color: #FFF;
+}
+
+
+.wx-banner-right-6 a{
+    float: right;
+    margin: 12px 33px 0 0;
+    font-size: 8px;
+    color: #0AE;
+
+}

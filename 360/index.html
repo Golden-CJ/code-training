@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <script src="js/jquery-3.0.0.min.js"></script>
+    <script src="js/jquery.fullPage.min.js"></script>
+    <script>
+        $(function(){
+            $("#box").fullpage({
+                afterLoad:function(anchorLink,index){
+                    $(".section").removeClass("animation")
+                    setTimeout(function(){
+                        $(".section").eq(index-1).addClass("animation")
+                    },10)
+                }
+            })
+        })
+    </script>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        .one {
+            background-color: skyblue;
+            padding-top: 100px;
+        }
+        .one .logo {
+            background: url("images/logo.png") no-repeat center;
+            height: 186px;
+        }
+        .one .text {
+            margin: 50px 0;
+            text-align: center;
+        }
+        .one .info1 {
+            background: url("images/info_1.png") no-repeat center;
+            height: 49px;
+        }
+        .two {
+            background-color: goldenrod;
+        }
+        .two>div {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+        }
+        .two .sheild {
+            width: 480px;
+        }
+        .two .info2 {
+            background:url("images/info_2.png") no-repeat;
+            width: 635px;
+            height: 305px;
+        }
+        .three {
+            background-color: palegreen;
+        }
+        .three>div {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            position: relative;
+            overflow: hidden;
+        }
+        .three .info3 {
+            background: url("images/info_3.png");
+            width: 631px;
+            height: 278px;
+        }
+        .three .circle {
+            background: url("images/circle.png");
+            width: 453px;
+            height: 449px;
+        }
+        .three .rocket {
+            background: url("images/rocket.png");
+            width: 203px;
+            height: 204px;
+            position: absolute;
+            left: 10px;
+            bottom: -204px;
+        }
+        .four {
+            background-color: lightseagreen;
+        }
+        .four>div {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+        }
+        .four .searchBox {
+            position: relative;
+            height: 438px;
+        }
+        .four .searchBox .search {
+            background: url("images/search.png") no-repeat;
+            width: 529px;
+            height: 66px;
+        }
+        .four .searchBox .searchinner {
+            background: url("images/key.png") no-repeat;
+            width: 99px;
+            height: 22px;
+            position: absolute;
+            top: 25px;
+            left: 15px;
+        }
+        .four .searchBox .pic {
+            background: url("images/result.png") no-repeat;
+            width: 529px;
+            height: 372px;
+        }
+        .four .info4 {
+            background: url("images/info_4.png") no-repeat;
+            width: 612px;
+            height: 299px;
+        }
+        .five {
+            background-color: coral;
+        }
+        .five>div {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            overflow: hidden;
+        }
+        .five .info5 {
+            background: url("images/info_5.png") no-repeat center;
+            width: 100%;
+            height: 134px;
+        }
+        .five .bigBox{
+            background: url("images/toolbar.png") no-repeat top center,
+            url("images/extra.png") no-repeat bottom right;
+            width: 1004px;
+            height: 528px;
+            flex: 1;
+            position: relative;
+        }
+        .five .bigBox .top {
+            border-top: 3px solid white;
+            width: 1004px;
+            height: 0;
+            position: absolute;
+            top: 0;
+        }
+        .five .bigBox .bottom {
+            border-bottom: 3px solid white;
+            width: 1004px;
+            height: 0;
+            position: absolute;
+            bottom: 0;
+        }
+        .five .bigBox .left {
+            border-left: 3px solid white;
+            height: 528px;
+            width: 0;
+            position: absolute;
+            left: 0;
+        }
+        .five .bigBox .right {
+            border-right: 3px solid white;
+            height: 528px;
+            width: 0;
+            position: absolute;
+            right: 0;
+        }
+
+
+
+        .one .text img {
+            opacity: 0;
+            margin: 0 20px;
+        }
+        .one.animation .text img{
+            opacity: 1;
+            margin: 0;
+            transition: all 1s;
+        }
+        .one .logo {
+            transform: rotateY(0deg);
+        }
+        .one.animation .logo {
+            transition: all 1s;
+            transform: rotateY(360deg);
+        }
+
+        .two .sheild img:nth-child(5) {
+            transform: rotateZ(45deg) translate(200px,100px);
+        }
+        .two.animation .sheild img:nth-child(5) {
+            transform: rotateZ(0deg) translate(0,0);
+            transition: all 1s;
+        }
+        .two .sheild img:nth-child(3) {
+            transform: rotateZ(45deg) translate(200px,100px);
+        }
+        .two.animation .sheild img:nth-child(3) {
+            transform: rotateZ(0deg) translate(0,0);
+            transition: all 1s;
+        }
+
+        .three .rocket {
+            transform: translateX(0) translateY(0);
+        }
+        .three.animation .rocket {
+            transform: translateX(950px) translateY(-430px);
+            transition: all 1s;
+        }
+        .three .circle {
+            transform: rotateZ(0deg);
+        }
+        .three.animation .circle {
+            transition: all 1s;
+            transform: rotateZ(720deg);
+        }
+
+        .four .searchBox {
+            transform: translateX(-900px)
+        }
+        .four.animation .searchBox{
+            transform: translateX(0);
+            transition:all 1s;
+        }
+
+        .four .searchBox .searchinner {
+            width: 0;
+        }
+        .four.animation .searchBox .searchinner {
+            width: 99px;
+            transition: all 1s 1.5s;
+            transition-timing-function: steps(5);
+        }
+
+        .four .searchBox .pic {
+            height: 0;
+        }
+        .four.animation .searchBox .pic {
+            height: 372px;
+            transition: all 1s 3s;
+        }
+
+        .five .bigBox .top {
+            transform: translateX(200%);
+        }
+        .five.animation .bigBox .top {
+            transform:translateX(0) ;
+            transition: all 1s;
+        }
+        .five .bigBox .bottom {
+            transform: translateX(-200%);
+        }
+        .five.animation .bigBox .bottom {
+            transform:translateX(0) ;
+            transition: all 1s;
+        }
+        .five .bigBox .left {
+            transform: translateY(-200%);
+        }
+        .five.animation .bigBox .left {
+            transform:translateY(0) ;
+            transition: all 1s;
+        }
+        .five .bigBox .right {
+            transform: translateY(200%);
+        }
+        .five.animation .bigBox .right {
+            transform:translateY(0) ;
+            transition: all 1s;
+        }
+    </style>
+</head>
+<body>
+    <div id="box">
+        <div class="section one">
+            <div class="logo"></div>
+            <div class="text">
+                <img src="images/text_1.png" alt=""/>
+                <img src="images/text_2.png" alt=""/>
+                <img src="images/text_3.png" alt=""/>
+                <img src="images/text_4.png" alt=""/>
+                <img src="images/text_5.png" alt=""/>
+                <img src="images/text_6.png" alt=""/>
+                <img src="images/text_7.png" alt=""/>
+                <img src="images/text_8.png" alt=""/>
+            </div>
+            <div class="info1"></div>
+        </div>
+        <div class="section two">
+            <div class="sheild">
+                <img src="images/shield_1.png" alt=""/>
+                <img src="images/shield_2.png" alt=""/>
+                <img src="images/shield_3.png" alt=""/>
+                <img src="images/shield_4.png" alt=""/>
+                <img src="images/shield_5.png" alt=""/>
+                <img src="images/shield_6.png" alt=""/>
+                <img src="images/shield_7.png" alt=""/>
+                <img src="images/shield_8.png" alt=""/>
+                <img src="images/shield_9.png" alt=""/>
+            </div>
+            <div class="info2"></div>
+        </div>
+        <div class="section three">
+            <div class="info3"></div>
+            <div class="circle"></div>
+            <div class="rocket"></div>
+        </div>
+        <div class="section four">
+            <div class="searchBox">
+                <div class="search"></div>
+                <div class="searchinner"></div>
+                <div class="pic"></div>
+            </div>
+            <div class="info4"></div>
+        </div>
+        <div class="section five">
+            <div class="info5"></div>
+            <div class="bigBox">
+                <div class="top"></div>
+                <div class="bottom"></div>
+                <div class="right"></div>
+                <div class="left"></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

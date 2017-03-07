@@ -1,0 +1,225 @@
+body {
+    min-width: 300px;
+    max-width: 640px;
+    margin: 0 auto;
+}
+
+.JD_buyCar {
+    background-color: #f5f5f5;
+    height: 100%;
+}
+
+.JD_topbar h2 {
+    text-align: center;
+    line-height: 45px;
+    font-weight: normal;
+    font-size: 16px;
+}
+
+
+.JD_buyCar .safeTip {
+    height: 34px;
+    background-color: #fff;
+    border-bottom: 1px solid #cccccc;
+    text-align: center;
+}
+
+.JD_buyCar .safeTip p {
+    line-height: 34px;
+    display: inline-block;
+    font-size: 12px;
+    color: #666;
+    position: relative;
+    margin-left: 20px;
+}
+
+.JD_buyCar .safeTip p::before {
+    content: "";
+    background: url("../images/safe_icon.png") no-repeat;
+    position: absolute;
+    background-size: 18px 18px;
+    width: 18px;
+    height: 18px;
+    top: 7px;
+    left: -21px;
+}
+.JD_buyCar .car {
+    margin-top: 10px;
+}
+.JD_buyCar .car .carTitle {
+    height: 34px;
+    width: 100%;
+    background-color: #fff;
+    border-top: 1px solid #cccccc;
+    padding-left: 34px;
+    position: relative;
+    margin-bottom: 0px;
+}
+.JD_buyCar .car .carTitle .checkBox {
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 34px;
+    height: 34px;
+    background: url("../images/shop-icon.png") no-repeat;
+    background-size: 50px 100px;
+    background-position: 9px 8px;
+}
+.JD_buyCar .car .carTitleRight .f_left {
+    margin-top: 5px;
+}
+.JD_buyCar .car .carTitleRight .f_left img {
+    width: 15px;
+    height: 15px;
+    vertical-align: middle;
+}
+.JD_buyCar .car .carTitleRight .f_left span {
+    font-size: 15px;
+    vertical-align: middle;
+}
+.JD_buyCar .car .carTitleRight .f_right {
+    font-size: 12px;
+    margin-top: 8px;
+    margin-right: 10px;
+    color: #d8505c;
+}
+.JD_buyCar .car .carBody {
+    width: 100%;
+}
+.JD_buyCar .car .carBody .carItem {
+    height: 100px;
+    width: 100%;
+    background-color: #fff;
+    /*border-bottom: 1px solid #cccccc;*/
+    border-top: 1px solid #cccccc;
+}
+.JD_buyCar .car .carBody .carItem .cicb {
+    width: 34px;
+    height: 34px;
+    position: absolute;
+}
+
+.JD_buyCar .car .carBody .carItem .cicb a {
+    display: block;
+    background: url("../images/shop-icon.png") no-repeat;
+    background-position: -17px 9px;
+    background-size: 50px 100px;
+    width: 34px;
+    height: 34px;
+}
+.JD_buyCar .car .carBody .carItem .productBox {
+    padding-left: 40px;
+    margin-top: 10px;
+}
+.JD_buyCar .car .carBody .carItem .productBox a{
+    width: 80px;
+    height: 80px;
+    float: left;
+}
+.JD_buyCar .car .carBody .carItem .productBox a img {
+    width: 100%;
+    height: 100%;
+}
+.JD_buyCar .car .carBody .carItem .productBox .infoBox {
+    overflow: hidden;
+    padding: 0px 10px;
+}
+.JD_buyCar .car .carBody .carItem .productBox .infoBox a {
+    display: inline-block;
+    height: 30px;
+    width: 100%;
+    overflow: hidden;
+    line-height: 15px;
+}
+.JD_buyCar .car .carBody .carItem .productBox .infoBox p {
+    font-size: 12px;
+    color: #d8505c;
+    padding: 4px 0px;
+}
+.JD_buyCar .car .carBody .carItem .productBox .infoBox .option .changeBox span {
+    display: block;
+    width: 25px;
+    height: 25px;
+    float: left;
+    text-align: center;
+    border: 1px solid #cccccc;
+}
+.JD_buyCar .car .carBody .carItem .productBox .infoBox .option .changeBox input {
+    width: 25px;
+    height: 25px;
+    float: left;
+    border-top: 1px solid #cccccc;
+    border-bottom: 1px solid #cccccc;
+}
+.JD_buyCar .car .carBody .carItem .productBox .infoBox .option .delBox {
+    float: right;
+    position: relative;
+    width: 18px;
+    height: 25px;
+}
+.JD_buyCar .car .carBody .carItem .productBox .infoBox .option .delBox .delBody {
+    position: absolute;
+    top: 5px;
+}
+.JD_buyCar .car .carBody .carItem .productBox .infoBox .option .delBox .delTop {
+    position: absolute;
+    top: -8px;
+}
+.JD_buyCar .car .carBody .carItem .productBox .infoBox .option .delBox .delTop img {
+    width: 18px;
+    height: 4px;
+}
+.JD_buyCar .car .carBody .carItem .productBox .infoBox .option .delBox .delBody img {
+    width: 17px;
+    height: 17.5px;
+}
+
+.mask {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.6);
+    position: fixed;
+    z-index: 999;
+    min-width: 300px;
+    display: none;
+}
+
+.mask .delTip {
+    width: 80%;
+    height: 140px;
+    margin: 0 auto;
+    background-color: #fff;
+    margin-top: 200px;
+    border-radius: 5px;
+    padding: 0 10px;
+}
+.mask .delTip .textBox {
+    font-size: 18px;
+    text-align: center;
+    line-height: 80px;
+    border-bottom: 1px solid #cccccc;
+}
+.mask .delTip .btnBox {
+    position: relative;
+}
+.mask .delTip .btnBox a {
+    display: block;
+    width: 35%;
+    height: 36px;
+    float: left;
+    line-height: 36px;
+    text-align: center;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.mask .delTip .btnBox .no {
+    position: absolute;
+    left: 5%;
+}
+.mask .delTip .btnBox .yes {
+    background-color: #d8505c;
+    color: #FFFFFF;
+    position: absolute;
+    left: 60%;
+}

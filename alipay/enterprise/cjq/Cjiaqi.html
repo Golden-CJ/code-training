@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="css/Cjqcss.css"/>
+</head>
+<body>
+<div class="Csev">
+    <div class="csevtop clearfix">
+        <div class="ctl fl">
+            <h3>收付款 加速资金流转</h3>
+            <ul class="clearfix">
+                <li><span class="cicon"></span><a class="cica" href="#">即时到账收款</a><em>|</em></li>
+                <li><a href="#">移动支付</a><em>|</em></li>
+                <li><a href="#">条码支付</a></li>
+            </ul>
+            <p><span class="Csmallicon1"></span><a href="#">商家平台服务窗改版公告</a></p>
+        </div>
+        <div class="ctc fl">
+            <h3>财务管理 企业高效对账</h3>
+            <ul class="clearfix">
+                <li><a href="#">财务汇总</a><em>|</em></li>
+                <li><a href="#">账单下载</a><em>|</em></li>
+                <li><a href="#">发票申请</a></li>
+            </ul>
+            <p><span class="Csmallicon2"></span><a href="#">新企业版转账功能介绍</a></p>
+            </ul>
+        </div>
+        <div class="ctr fl">
+            <h3>增值服务 提高竞争力 </h3>
+            <ul class="clearfix">
+                <li><a href="#">数据罗盘</a><em>|</em></li>
+                <li><a href="#">技术支持</a><em>|</em></li>
+                <li><a href="#">支付宝免费转账</a></li>
+            </ul>
+            <p><span class="Csmallicon3"></span><a href="#">商家学堂，助力企业成长！</a></p>
+            </ul>
+        </div>
+    </div>
+    <div class="csevbottom clearfix">
+        <div class="cbottoml fl">
+            <i class="cbotton-icon1 fl"></i>
+
+            <div class="Citem fl">
+                <h4>认识支付宝企业版</h4>
+
+                <p><a href="#">企业版简介</a><em>|</em><a href="#">企业版使用手册</a></p>
+            </div>
+        </div>
+        <div class="cbottomc fl">
+            <i class="cbotton-icon2 fl"></i>
+
+            <div class="Citem fl">
+                <h4>如何接入支付宝</h4>
+
+                <p><a href="#">签约流程</a><em>|</em><a href="#">产品和服务</a></p>
+            </div>
+        </div>
+        <div class="cbottomr fl">
+            <i class="cbotton-icon3 fl"></i>
+
+            <div class="Citem fl">
+                <h4>更多学习资料</h4>
+
+                <p><a href="#">网站安全</a><em>|</em><a href="#">如何收款</a><em>|</em><a href="#">帮助中心</a></p>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="Cfoot">
+    <div class="cfirst Cw">
+        <div class="cfone">
+            <a href="#">诚征英才</a>
+            <em>|</em>
+            <a href="#">联系我们</a>
+            <em>|</em>
+            <a href="#">International Business</a>
+            <em>|</em>
+            支付宝版权所有 2004-2016 ICP证：<a href="#">沪B2-20150087</a>
+        </div>
+    </div>
+    <div class="cftwo Cw clearfix">
+        <ul>
+            <li><a href="#">阿里巴巴集团：&nbsp;&nbsp;</a></li>
+            <li><a href="#">国际站</a><em>|</em></li>
+            <li><a href="#">中文站</a><em>|</em></li>
+            <li><a href="#">全球速卖通</a><em>|</em></li>
+            <li><a href="#">淘宝网</a><em>|</em></li>
+            <li><a href="#">天猫</a><em>|</em></li>
+            <li><a href="#">一淘网</a><em>|</em></li>
+            <li><a href="#">聚划算</a><em>|</em></li>
+            <li><a href="#">支付宝</a><em>|</em></li>
+            <li><a href="#">阿里云</a><em>|</em></li>
+            <li><a href="#">中国雅虎</a></li>
+        </ul>
+    </div>
+    <div class="cthird Cw">
+        <span id="cjqFt" class="finally"></span>
+    </div>
+    <script>
+        var ccc = document.getElementById("cjqFt");
+        ccc.onmouseover = function () {
+            this.style.backgroundImage = "url(images/Ft.png)";
+        }
+        ccc.onmouseout = function () {
+            this.style.backgroundImage = "";
+        }
+    </script>
+    <div class="clunbo Cw">
+        <div id="cscreen" class="cmask">
+            <img id="cjqLbt" src="images/Ft.png" alt=""/>
+        </div>
+        <script>
+            var cscreen = document.getElementById("cscreen");
+            var cjq = document.getElementById("cjqLbt");
+            var timer = null;
+            timer = setInterval(play, 15);
+            cscreen.onmouseover = function () {
+                clearInterval(timer);
+            };
+            cscreen.onmouseout = function () {
+                timer = setInterval(play, 15);
+            };
+
+            function play() {
+                var leader = cjq.offsetLeft;
+                var step = -1;
+                if (leader > -556) {
+                    leader = leader + step;
+                    cjq.style.left = leader + "px";
+                } else {
+                    cjq.style.left = 0;
+                }
+            }
+
+        </script>
+    </div>
+</div>
+</body>
+</html>

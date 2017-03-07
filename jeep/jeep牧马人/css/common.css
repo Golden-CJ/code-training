@@ -1,0 +1,902 @@
+/**
+ * Created by rabbcat on 2016/12/6.
+ */
+/*wkv start*/
+.wkv{height: 524px;position: relative;}
+.wkv ul{width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+}
+
+.wkv ul li{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.wkv ul .kv1{
+    background:url("../images/index/kv1.jpg" ) top center no-repeat;
+}
+.wkv ul .kv2{
+    background:url("../images/index/kv2.jpg") top center no-repeat;
+}
+.wkv .clicbox {
+    width: 190px;
+    position: absolute;
+    bottom: 28px;
+    left: 50%;
+    margin-left: -90px;
+    z-index: 3
+}
+.clicbox li{
+    width: 66px;
+    height: 3px;
+    float: left;
+    margin-right: 13px;
+    cursor: pointer;
+    /*padding: 8px;*/
+    background: url("../images/index/kv_icon02.png") center center no-repeat;
+}
+.clicbox .current{
+    width: 66px;
+    height: 2px;
+    float: left;
+    margin-right: 13px;
+    cursor: pointer;
+    background: #ffb400;
+    /*background: url("../images/index/kv_icon02.png") center center no-repeat;*/
+
+}
+
+/*wkv end */
+/*importInfo start*/
+.wimportInfo{
+    width: 100%;
+    height: 259px;
+    background: #343434;
+}
+.wimportInfo .infoDetail{
+    width: 1080px;
+    height: 259px;
+    position: relative;
+    margin: 0 auto;
+    background: url("../images/index/jkinfo.png") no-repeat;
+}
+.wimportInfo .infoDetail .d1{
+    width: 200px;
+    top: 34px;
+    left: 39px;
+    position: absolute;
+    font-size: 16px;
+    color: #d1d1d1;
+    line-height: 24px;
+}
+.wimportInfo .infoDetail .d2{
+    width: 200px;
+    top: 34px;
+    left: 309px;
+    position: absolute;
+    font-size: 16px;
+    color: #d1d1d1;
+    line-height: 24px;
+}
+.wimportInfo .infoDetail .d3{
+    width: 200px;
+    top: 34px;
+    left: 579px;
+    position: absolute;
+    font-size: 16px;
+    color: #d1d1d1;
+    line-height: 24px;
+}
+.wimportInfo .infoDetail .d4{
+    width: 200px;
+    top: 34px;
+    left: 852px;
+    position: absolute;
+    font-size: 16px;
+    color: #d1d1d1;
+    line-height: 24px;
+}
+.wimportInfo .infoDetail .d5{
+    width: 162px;
+    top: 86px;
+    left: 30px;
+    position: absolute;
+    font-size: 23px;
+    color: #c28e0f;
+}
+.wimportInfo .infoDetail span{
+    font-size: 60px;
+    font-weight: bold;
+}
+.wimportInfo .infoDetail .d6{
+    width: 62px;
+    top: 86px;
+    left: 307px;
+    position: absolute;
+    font-size: 23px;
+    color: #c28e0f;
+}
+.wimportInfo .infoDetail .d7{
+    width: 137px;
+    top: 86px;
+    left: 573px;
+    position: absolute;
+    font-size: 23px;
+    color: #c28e0f;
+}
+.wimportInfo .infoDetail .d8{
+    width: 87px;
+    top: 86px;
+    left: 848px;
+    position: absolute;
+    font-size: 23px;
+    color: #c28e0f;
+}
+.wimportInfo .infoDetail .d9{
+    width: 200px;
+    top: 174px;
+    left: 31px;
+    position: absolute;
+    font-size: 13px;
+    color: #d1d1d1;
+}
+.wimportInfo .infoDetail .d10{
+    width: 200px;
+    top: 173px;
+    left: 302px;
+    position: absolute;
+    font-size: 13px;
+    color: #d1d1d1;
+}
+.wimportInfo .infoDetail .d11{
+    width: 200px;
+    top: 173px;
+    left: 573px;
+    position: absolute;
+    font-size: 13px;
+    color: #d1d1d1;
+}
+.wimportInfo .infoDetail .d12{
+    width: 200px;
+    top: 173px;
+    left: 843px;
+    position: absolute;
+    font-size: 13px;
+    color: #d1d1d1;
+}
+
+
+
+/*importInfo end*/
+/*jeepColor start*/
+.wjeepColor{
+    height: 702px;
+    background:url("../images/index/skin_bg.jpg" ) center top no-repeat;
+}
+.wjeepColor .middle{
+    height: 702px;
+    margin: 0 auto;
+    position: relative;
+    /*background: #ffb301;*/
+}
+.wjeepColor .navBox {
+    width: 1024px;
+    height: 190px;
+    position: absolute;
+    left: 128px;
+    top: 31px;
+}
+.wjeepColor .nav1 {
+    width: 100%;
+    height: 43px;
+}
+.wjeepColor .nav1 li {
+    width: 340px;
+    height: 43px;
+    float: left;
+    text-align: center;
+    background: #919293;
+    border-right: 1px solid #a8a9a9;
+}
+.wjeepColor .nav1 li a {
+    width: 100%;
+    height: 43px;
+    float: left;
+    text-align: center;
+    color: #000;
+    line-height: 43px;
+    font-size: 14px;
+}
+.wjeepColor .navCar {
+    width: 100%;
+    height: 147px;
+    background: #d0d0d0;
+    display: none;
+}
+.wjeepColor .navCar li {
+    width: 100%;
+    height: 147px;
+    float: left;
+    text-align: center;
+    cursor: pointer;
+}
+.wjeepColor .navCar li img {
+    margin: 18px auto 2px;
+}
+.wjeepColor .middle .colorBox{
+    width: 410px;
+    top: 598px;
+    left: 127px;
+    position: absolute;
+    cursor: pointer;
+}
+.wjeepColor .middle .colorBox li{
+    width: 44px;
+    height: 50px;
+    /*background: whitesmoke;*/
+    /*margin-right: 1px;*/
+    float: left;
+    position: relative;
+    cursor: pointer;
+}
+.wjeepColor .middle .colorBox li img{
+    position: absolute;
+}
+.wjeepColor .middle .colorBox li .bg{
+    z-index: 1;
+    
+}
+.wjeepColor .middle .colorBox li .color{
+    z-index: 2;
+    left: 50%;
+    top:50%;
+    margin-left: -14px;
+    margin-top:-17px;
+
+}
+.wjeepColor .middle .colorBox p{
+    width: 100px;
+    text-align: center;
+    font-size: 11px;
+    color: #000;
+    margin-left: -28px;
+    display: none;
+    position: absolute;
+    bottom: -12px;
+}
+.wjeepColor .carImage {
+    width: 540px;
+    top: 353px;
+    left: 614px;
+    position: absolute;}
+.ljcs {
+    width: 204px;
+    height: 38px;
+    top: 495px;
+    left: 132px;
+    position: absolute;
+}
+.wjeepColor .txtLine {
+    width: 520px;
+    top: 255px;
+    left: 132px;
+    position: absolute;
+    color: #fff;
+    font-size: 13px;
+    line-height: 28px;
+}
+.wjeepColor .txtLine li {
+    width: 50%;
+    height: 28px;
+    float: left;
+    line-height: 28px;
+}
+/*jeepColor end*/
+.wtitle{
+    width: 100%;
+    height: 149px;
+    background:url("../images/index/tit_bg.jpg") center top no-repeat;
+}
+.wtitle h3{
+    font-size: 45px;
+    line-height: 149px;
+    text-align: center;
+    color: #242424; 
+}
+/*driver start*/
+.wdriver{
+
+}
+/*.wdriver .wexplore1{*/
+    /*width: 100%;*/
+    /*height: 874px;*/
+    /*background: url("../images/index/explore1.jpg")  center top no-repeat;*/
+    /*position: relative;*/
+/*}*/
+.exp1 {
+    width: 100%;
+    height: 874px;
+    background: url(../images/index/explore1.jpg) no-repeat top center;
+    position: relative;
+}
+
+.exp1 ul {
+    position: absolute;
+    top: 550px;
+    left: 50%;
+    margin-left: 100px;
+}
+
+.exp1 li {
+    list-style: disc;
+    font-size: 18px;
+    color: #333;
+    line-height: 24px;
+}
+
+.exp1 a {
+    position: absolute;
+    top: 730px;
+    left: 50%;
+    margin-left: 100px;
+    width: 171px;
+    height: 39px;
+    padding-left: 50px;
+    background: url(../images/index/exp_btn1.png) no-repeat;
+    font-size: 18px;
+    color: #000;
+    line-height: 39px;
+}
+
+.exp2 {
+    width: 100%;
+    height: 633px;
+    background: url(../images/index/explore2.jpg) no-repeat top center;
+    position: relative;
+}
+
+.exp2 a {
+    position: absolute;
+    top: 290px;
+    left: 50%;
+    margin-left: -500px;
+    width: 250px;
+    height: 58px;
+    padding-top: 10px;
+    padding-left: 50px;
+    background: url(../images/index/exp_btn2.png) no-repeat;
+    font-size: 18px;
+    color: #fff;
+    line-height: 20px;
+}
+.midbox .pup1 {
+    width: 1280px;
+    height: 550px;
+    position: absolute;
+    top: 67px;
+    left: 30px;
+}
+
+.wdriver .wexplore2{
+    width: 100%;
+    height: 633px;
+    background: url("../images/index/explore2.jpg")  center top no-repeat;
+}
+/*driver end*/
+/*power start*/
+.wpower{
+
+}
+.wpower1{
+    position: relative;
+    width: 100%;
+    height: 874px;
+    background:url("../images/index/power1.jpg")  center top no-repeat;
+}
+.wpower2{
+    position: relative;
+    width: 100%;
+    height: 374px;
+    background:url("../images/index/power2.jpg")  center top no-repeat;
+
+}
+.wpower1 .txt {
+    position: absolute;
+    top: 608px;
+    left: 50%;
+    margin-left: 100px;
+    font-size: 18px;
+    color: #333;
+    line-height: 24px;
+    width: 414px;
+    height: 90px;
+    background: url(../images/index/power_txt.png) no-repeat;}
+.wpower1 a.wpower_btn1 {
+    position: absolute;
+    top: 730px;
+    left: 50%;
+    margin-left: 100px;
+    width: 390px;
+    height: 45px;
+    padding-left: 50px;
+    background: url(../images/index/power_btn1.png) no-repeat;
+    font-size: 18px;
+    color: #000;}
+.wpower2 a.wpower_btn2 {
+    position: absolute;
+    top: 185px;
+    left: 50%;
+    margin-left: -500px;
+    width: 293px;
+    height: 68px;
+    padding-left: 50px;
+    background: url(../images/index/power_btn2.png) no-repeat;
+    font-size: 18px;
+    color: #fff;
+    line-height: 58px;}
+.wpower2 span {
+    cursor: pointer;
+    width: 73px;
+    height: 98px;
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    margin-left: 550px;}
+/*power end*/
+/*design start*/
+.wdesign{
+    width: 100%;
+}
+.wdesign1{
+    position: relative;
+    width: 100%;
+    height: 531px;
+    background:url("../images/index/design1.jpg") center top  no-repeat;
+}
+
+.wdesign2{
+    position: relative;
+    width: 100%;
+    height: 384px;
+    background:url("../images/index/design2.jpg") center top  no-repeat;
+}
+.wdesign2 .wdesignlink{
+    position: absolute;
+    top: 109px;
+    left: 50%;
+    margin-left: 87px;
+    width: 284px;
+    height: 39px;
+    padding-left: 50px;
+    background: url(../images/index/design_btn1.png) no-repeat;
+    font-size: 18px;
+    color: #000;
+    line-height: 39px;
+}
+.wdesign2 ul{
+    position: absolute;
+    top: 165px;
+    left:50%;
+    margin-left: 120px;
+}
+.wdesign ul li{
+    list-style: disc;
+    font-size: 18px;
+    color: #585858;
+    line-height: 24px;
+}
+.wdesign3{
+    height: 505px;
+    width: 1340px;
+    margin:0 auto;
+    position: relative;
+    background:#ffb301;
+    overflow: hidden;
+}
+
+.wdesign3 ul{
+    width:1600px;
+    height: 100%;
+    /*background: white;*/
+    /*position: absolute;*/
+    /*top: 0;*/
+    /*left: 0;*/
+
+}
+.wdesign3 ul li{
+    float: left;
+    list-style:none;
+    width: 24%;
+    height:100%;
+    border-right:1px solid #000;
+    background-position:center top;
+    /*position:relative;*/
+
+}
+.wdesign3 .black {
+    /*width:1066px;*/
+    height: 75px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: none;}
+.wdesign3 .black .mybk {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #000;
+    filter: alpha(opacity=50);
+    opacity: 0.5;}
+.wdesign3 .blackBox {
+    width: 750px;
+    height: 100%;
+    position: absolute;
+    left: 55%;
+    bottom: 0;
+    margin-left: -435px;
+    text-align: center;}
+.wdesign3 .txt1 {
+    font-size: 20px;
+    line-height: 44px;
+    color: #fff;
+    border-left: 2px solid #fff;
+    border-right: 2px solid #fff;
+    padding: 0 21px;}
+.wdesign3 .txt2 {
+    font-size: 28px;
+    line-height: 66px;
+    color: #fff;
+    padding: 0 21px;
+}
+.wdesign4{
+    position: relative;
+    width: 100%;
+    height: 596px;
+    background:url("../images/index/design3.jpg") center top  no-repeat;
+}
+
+.wdesign4 a {
+    position: absolute;
+    top: 207px;
+    left: 50%;
+    margin-left: 280px;
+    width: 233px;
+    height: 39px;
+    padding-left: 50px;
+    background: url(../images/index/design_btn2.png) no-repeat;
+    font-size: 18px;
+    color: #fff;
+    line-height: 39px;
+}
+
+.wdesign4 span {
+    cursor: pointer;
+    width: 73px;
+    height: 98px;
+    position: absolute;
+    top: 280px;
+    left: 50%;
+    margin-left: 550px;
+}
+
+
+
+/*design end*/
+/*control start*/
+.wcontrol{
+    position: relative;
+}
+.wcontrol1{
+    width: 100%;
+    height: 531px;
+    background:url("../images/index/tan1.jpg") center top no-repeat;
+}
+.wcontrol2{
+    width: 100%;
+    height: 415px;
+    position: relative;
+    /*background: hotpink;*/
+    margin-top: 17px;
+}
+.wcontrol2 .midbox {
+    width: 1259px;
+    height: 337px;
+    position: absolute;
+    top: 17px;
+    left: 50%;
+    margin-left: -629.5px;
+}
+.wcontrol2 .part1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 628px;
+    height: 337px;
+    background: url(../images/index/tan2.jpg) no-repeat;
+}
+.wcontrol2 .part1 a {
+    width: 39px;
+    height: 39px;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+.wcontrol2 .part1 span {
+    cursor: pointer;
+    width: 73px;
+    height: 98px;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
+.wcontrol2 .part1 p {
+    width: 628px;
+    position: absolute;
+    top: 348px;
+    left: 0;
+    padding-top: 15px;
+    font-size: 18px;
+    color: #000;
+    text-align: center;
+    border-top: 1px solid #b2b2b2;
+}
+.wcontrol2 .part2 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 628px;
+    height: 337px;
+    background: url(../images/index/tan3.jpg) no-repeat;
+}
+.wcontrol2 .part2 a {
+    width: 39px;
+    height: 39px;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+.wcontrol2 .part2 span {
+    cursor: pointer;
+    width: 73px;
+    height: 98px;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
+.wcontrol2 .part2 p {
+    width: 628px;
+    position: absolute;
+    top: 348px;
+    left: 0;
+    padding-top: 15px;
+    font-size: 18px;
+    color: #000;
+    text-align: center;
+    border-top: 1px solid #b2b2b2;
+}
+/*control end*/
+/*safety start*/
+.wsafety1{
+    width: 100%;
+    height: 533px;
+    background:url("../images/index/safe1.jpg") center top no-repeat;
+}
+.wsafety2{
+    position: relative;
+    width: 100%;
+    height: 607px;
+    background:url("../images/index/safe2.jpg") center top no-repeat;
+}
+.wsafety2 a {
+    position: absolute;
+    top: 178px;
+    left: 50%;
+    margin-left: -500px;
+    width: 202px;
+    height: 41px;
+    padding-top: 10px;
+    padding-left: 50px;
+    background: url(../images/index/safe_btn1.png) no-repeat;
+    font-size: 18px;
+    color: #000;
+}
+.wsafety3{
+    width: 100%;
+    height: 785px;
+    /*background:#C81623;*/
+    
+}
+.wsafety3 span {
+    cursor: pointer;
+    width: 73px;
+    height: 98px;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
+.wsafety3 .midBox{
+    width: 1259px;
+    height: 786px;
+    /*background: paleturquoise;*/
+    margin: 0 auto;
+    position: relative;
+}
+.wsafety3 .midBox .safedetail1{
+    width: 418px;
+    height: 337px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url(../images/index/safe3.jpg) no-repeat;
+}
+.wsafety3 .midBox .safedetail1 p{
+    width: 418px;
+    position: absolute;
+    top: 347px;
+    left: 0;
+    padding-top: 5px;
+    font-size: 18px;
+    color: #000;
+    text-align: center;
+    border-top: 1px solid #b2b2b2;
+}
+.wsafety3 a {
+    width: 39px;
+    height: 39px;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+.wsafety2 span {
+    cursor: pointer;
+    width: 73px;
+    height: 98px;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
+.wsafety3 .midBox .safedetail2{
+    width: 418px;
+    height: 337px;
+    position: absolute;
+    top: 0;
+    left: 421px;
+    background: url(../images/index/safe4.jpg) no-repeat;
+}
+.wsafety3 .midBox .safedetail2 p{
+    width: 418px;
+    position: absolute;
+    top: 347px;
+    left: 0;
+    padding-top: 5px;
+    font-size: 18px;
+    color: #000;
+    text-align: center;
+    border-top: 1px solid #b2b2b2;
+}
+.wsafety3 .midBox .safedetail3{
+    width: 418px;
+    height: 337px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: url(../images/index/safe5.jpg) no-repeat;
+}
+.wsafety3 .midBox .safedetail3 p{
+    width: 418px;
+    position: absolute;
+    top: 347px;
+    left: 0;
+    padding-top: 5px;
+    font-size: 18px;
+    color: #000;
+    text-align: center;
+    border-top: 1px solid #b2b2b2;
+}
+.wsafety3 .midBox .safedetail4{
+    position: absolute;
+    top: 398px;
+    left: 0;
+    width: 1259px;
+    height: 370px;
+    background: url(../images/index/safe6.jpg) no-repeat;
+}
+.wsafety4{
+    position: relative;
+    width: 100%;
+    height: 349px;
+    background:url("../images/index/safe7.jpg") center top no-repeat;
+}
+.wsafety4 a {
+    position: absolute;
+    top: 178px;
+    left: 50%;
+    margin-left: 250px;
+    width: 274px;
+    height: 39px;
+    padding-left: 50px;
+    background: url(../images/index/safe_btn2.png) no-repeat;
+    font-size: 18px;
+    color: #fff;
+    line-height: 39px;
+}
+/*safety end*/
+.jkPup1,.jkPup2,.jkPup3,.jkPup4,.jkPup5,.jkPup6,.jkPup7,.jkPup8,.jkPup9,.jkPup10,.jkPup11{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 14000;
+    display: none;
+    font-family: "DIN", "Helvetica Neue", Helvetica, Arial, "汉仪中黑简",
+    "汉仪大黑简", sans-serif;
+}
+.jkPup .black {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #000;
+    opacity: 0.7;
+    filter: alpha(opacity=70);
+}
+.pupcon {
+    width: 1280px;
+    height: 550px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -275px 0 0 -640px;
+}
+.pupcon .midbox {
+    width: 1280px;
+    height: 550px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+.pupcon .txtcon {
+    width: 295px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 43px;
+}
+.pupcon .txtcon b {
+    width: 300px;
+    height: 1px;
+    background: #969697;
+    display: block;
+    margin-top: 10px;
+}
+.pupcon .txtcon p {
+    padding-top: 20px;
+    font-size: 15px;
+    line-height: 24px;
+    color: #fff;
+    width: 320px;
+}
+.pupcon .closepup1,.closepup2,.closepup3,.closepup4,.closepup5,.closepup6,.closepup7,.closepup8,.closepup9,.closepup10,.closepup11,.closepup12{
+    width: 48px;
+    height: 48px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.pupcon .pupbt {
+    width: 234px;
+    height: 45px;
+    position: absolute;
+    bottom: 36px;
+    right: 95px;
+}

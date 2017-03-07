@@ -1,0 +1,341 @@
+@charset "UTF-8";
+/*字符编码*/
+/*header部分 B*/
+.a-header {
+    width: 100%;
+    height: 62px;
+    background: #000;
+    border-bottom: 3px solid #FFB400;
+    /*position: fixed;*/
+    /*padding: 0 80px;*/
+    /*overflow: hidden;*/
+}
+
+.a-h-left {
+    width: 80px;
+    margin-left: 50px;
+}
+
+.a-h-left h1 {
+    width: 80px;
+    position: relative;
+    top: -20px;
+}
+
+.a-h-left img {
+    position: relative;
+    top: -15px;
+}
+
+.a-h-right {
+    position: relative;
+    margin-right: 100px;
+}
+
+.a-h-r-business {
+    width: 150px;
+    float: none;
+    position: absolute;
+    top: 62px;
+    left: 0px;
+    z-index: 10;
+    background: rgba(0, 0, 0, .8);
+    display: none;
+}
+
+.a-h-right .a-h-r-business li {
+    width: 130px;
+    padding: 0 10px;
+    margin: 0;
+}
+
+.a-h-r-businessbox:hover .a-h-r-business {
+    display: block;
+}
+
+.a-h-right li {
+    float: left;
+    padding: 0 20px;
+    height: 62px;
+    font: 14px/63px "microsoft yahei";
+    color: #FFFFCE;
+    position: relative;
+}
+
+.a-h-right li .shop {
+    color: #FFFFCE;
+    display: inline-block;
+    height: 62px;
+    width: 65px;
+    text-align: center;
+}
+
+.a-h-right li:hover {
+    background: #FFB400;
+}
+
+.a-h-right .find:hover {
+    background: #000;
+}
+
+.a-h-right .find {
+    position: relative;
+    margin-left: 15px;
+}
+
+.a-h-right .find a {
+    color: #FFB400;
+    display: inline-block;
+    height: 62px;
+    width: 70px;
+}
+
+.a-h-right .find i {
+    width: 13px;
+    height: 17px;
+    background: url(../A-images/nav02.png);
+    position: absolute;
+    top: 25px;
+    left: 0px;
+}
+
+.a-h-right .find em {
+    width: 16px;
+    height: 17px;
+    background: url(../A-images/nav03.png);
+    position: absolute;
+    top: 25px;
+    left: 0px;
+}
+
+.a-h-right li s {
+    width: 14px;
+    height: 14px;
+    background: url(../A-images/nav01.png);
+    display: inline-block;
+}
+
+.showcar {
+    background: red;
+    width: 1024px;
+    height: 520px;
+    position: absolute;
+    top: 65px;
+    left: -280px;
+    overflow: hidden;
+    display: none;
+    /*z-index: -1;*/
+}
+
+.showcar li {
+    width: 341px;
+    height: 260px;
+    padding: 0px;
+    background: #FFF;
+}
+
+.showcar li a {
+    color: #000;
+
+}
+
+.showcar li:hover {
+    background: #FFF;
+}
+
+.showcar li a p {
+    color: #000;
+    font: 14px/25px "simsun";
+    text-align: center;
+}
+
+.showcar li a p.a-s-title {
+    font: 24px/25px "simsun";
+}
+
+.showcar span {
+    width: 0;
+    height: 0;
+    border-left: 1px solid #000;
+}
+
+.showcar button {
+    width: 169px;
+    height: 35px;
+    float: left;
+    color: #333;
+    position: relative;
+}
+
+.showcar button.gray0 {
+    background: #ccc;
+}
+
+.showcar button.gray1 {
+    background: #999;
+}
+
+.showcar button.border {
+    border-right: 1px solid #999;
+}
+
+.showcar button i, .showcar button s, .showcar button em {
+    position: absolute;
+    top: 10px;
+    width: 14px;
+    height: 15px;
+}
+
+.showcar button i {
+    background: url(../A-images/yysj.fw.png);
+    left: 35px;
+}
+
+.showcar button s {
+    background: url(../A-images/ljxq.fw.png);
+    left: 35px;
+
+}
+
+.showcar button em {
+    background: url(../A-images/jt.fw.png) no-repeat center center;
+    left: 120px;
+}
+/*右测导航栏*/
+.f-rightNav {
+    position: fixed;
+    right: -100px;
+    top: 180px;
+}
+
+.f-rightNav li {
+    position: relative;
+    width: 130px;
+    padding: 0 10px;margin-bottom: 1px;
+    background-color: rgba(0,0,0,.5);
+}
+
+.f-rightNav a {
+    display: block;
+    height: 50px;
+    line-height: 50px;
+    color: #CFCFCF;
+}
+
+.f-rightNav span {
+    vertical-align: -4px;
+    margin-left: 20px;
+}
+
+/*右测导航栏结束*/
+/*header部分 E*/
+
+/*footer部分 B*/
+.f-footer {
+    width: 100%;
+    height: 638px;
+    background: #313131;
+    min-width: 1280px;
+}
+
+.ftMap {
+    width: 1032px;
+    height: 409px;
+    margin: 0 auto;
+    padding-top: 60px;
+}
+
+.ftMap dl {
+    width: 135px;
+    float: left;
+}
+
+.ftMap dl dt {
+    font-size: 14px;
+    color: #fff;
+    margin-bottom: 16px;
+}
+
+.ftMap dl dd {
+    font-size: 12px;
+    margin-bottom: 16px;
+}
+
+.ftMap dl dd a {
+    color: #a7a7a7;
+}
+
+.ftMap dl dd a:hover {
+    color: #FFB400;
+}
+
+.ftMap .r {
+    font-size: 10px;
+    position: relative;
+    top: -4px;
+}
+
+.ftMap .content {
+    width: 156px;
+    float: right;
+}
+
+.ftMap .content dt {
+    margin-bottom: 6px;
+}
+
+.ftMap .ftTel {
+    font-size: 22px;
+    font-weight: bold;
+    color: #b9b9b9;
+}
+
+.ftMap .content img {
+    vertical-align: baseline;
+    margin-right: 15px;
+    position: relative;
+    top: 10px;
+}
+
+.ftCopyRight {
+    width: 100%;
+    height: 229px;
+    background: #191919;
+}
+
+.ftCopyRightBox {
+    width: 1032px;
+    border-top: 1px solid #3c3c3c;
+    margin: 0 auto;
+    position: relative;
+    top: -1px;
+}
+
+.ftCopyRightBox .link {
+    font-size: 12px;
+    font-weight: bold;
+    color: #fff;
+    margin-top: 24px;
+}
+
+.ftCopyRightBox .link a {
+    color: #fff;
+    margin: 0 3px;
+}
+
+.ftCopyRightBox .disc {
+    font-size: 12px;
+    color: #555;
+    margin-top: 15px;
+    line-height: 22px;
+}
+
+.ftCopyRightBox .logos {
+    width: 272px;
+    height: 21px;
+    position: absolute;
+    top: 24px;
+    right: 0;
+}
+
+/*footer部分 E*/

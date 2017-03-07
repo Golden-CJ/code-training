@@ -1,0 +1,95 @@
+﻿@charset "UTF-8";
+/*设置默认编码集*/
+body, dd, div, dl, dt, fieldset, form, h1, h2, h3, h4, h5, h6, input, li, ol, p, pre, td, textarea, th, ul, img {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    color: #555;
+    font-size: 12px;
+    font-family: "DIN", "Helvetica Neue", Helvetica, Arial, "汉仪中黑简", "汉仪大黑简", "Hiragino Sans GB", "Heiti SC", "WenQuanYi Micro He";
+}
+
+/*各浏览器显示不同，去掉边框等默认样式*/
+fieldset, img, input, button {
+    border: none;
+    padding: 0;
+    margin: 0;
+    outline-style: none;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 400;
+    font-size: 100%;
+}
+
+a {
+    vertical-align: middle;
+    text-decoration: none;
+}
+
+input {
+    padding-top: 0;
+    padding-bottom: 0;
+    font-family: "SimSun", "宋体";
+}
+
+select, input, textarea {
+    font-size: 12px;
+    margin: 0;
+}
+
+/*防止拖动 影响布局*/
+textarea {
+    resize: none;
+}
+
+/*去掉行内替换元素空白缝隙*/
+img {
+    border: 0;
+    vertical-align: middle;
+}
+
+/*清除浮动*/
+.clearfix:before, .clearfix:after {
+    content: "";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1; /*IE/7/6*/
+}
+
+/*废物利用*/
+s, i, em, u {
+    font-style: normal;
+    text-decoration: none;
+}
+
+/*公共类*/
+.w {
+    /*版心 提取 */
+    width: 1280px;
+    margin: 0 auto;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.textcenter {
+    text-align: center;
+}

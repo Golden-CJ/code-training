@@ -1,0 +1,252 @@
+@charset "UTF-8";
+/*字符编码*/
+/*banner部分 B*/
+.a-banner {
+    width: 100%;
+    height: 768px;
+    overflow: hidden;
+    position: relative;
+}
+
+.a-banner img {
+    width: 1366px;
+}
+
+.a-banner ul {
+    width: 10000px;
+    position: absolute;
+}
+
+.a-banner li {
+    float: left;
+}
+
+.a-banner .a-arr {
+    display: none;
+}
+
+.a-banner .a-arr div {
+    position: absolute;
+    top: 50%;
+    margin-top: -25px;
+    font: 100px "simsun";
+    background: rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+
+.a-a-left {
+    left: 0px;
+}
+
+.a-a-right {
+    right: 0px;
+}
+
+.a-banner-ol {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    margin-left: -105px;
+}
+
+.a-banner-ol li {
+    width: 50px;
+    height: 10px;
+    background: rgba(0, 0, 0, 0.3);
+    margin: 0 10px;
+    float: left;
+}
+
+.a-banner-ol li.current {
+    background: rgba(255, 255, 255, 0.3);
+}
+
+/*banner部分 E*/
+
+/*history部分 B*/
+.a-history {
+    background: rgba(0, 0, 0, 0.8);
+    overflow: hidden;
+    height: 657px;
+    position: relative;
+}
+
+.a-history img {
+    position: absolute;
+    left: 50%;
+    margin-left: -100px;
+    top: 50px;
+}
+
+.a-history p {
+    text-align: center;
+    font: 16px/40px "microsoft yahei";
+    color: #fff;
+    position: absolute;
+    top: 115px;
+    left: 50%;
+    margin-left: -300px;
+}
+
+.a-history button {
+    font: 16px/40px "microsoft yahei";
+    color: #000;
+    background: #FFB400;
+    width: 240px;
+    text-align: center;
+    position: absolute;
+    top: 245px;
+    left: 50%;
+    margin-left: -105px;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.a-history img.change-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0;
+}
+
+.a-h-zyxbox {
+    width: 300px;
+    height: 165px;
+    background: rgba(0, 0, 0, 0);
+    position: absolute;
+    top: 50%;
+    left: 115px;
+}
+
+.a-h-mmrbox {
+    width: 215px;
+    height: 300px;
+    background: rgba(0, 0, 0, 0);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -255px;
+}
+
+.a-h-dqnjbox {
+    width: 210px;
+    height: 300px;
+    background: rgba(0, 0, 0, 0);
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    margin-right: -175px;
+}
+
+.a-h-zygbox {
+    width: 310px;
+    height: 165px;
+    background: rgba(0, 0, 0, 0);
+    position: absolute;
+    top: 50%;
+    right: 190px;
+}
+
+.a-h-b-words {
+    text-align: right;
+    position: absolute;
+    margin: 0;
+    font: 14px "simsun";
+    /*display: none;*/
+    opacity: 0;
+}
+
+.a-h-zyxbox .a-h-b-words {
+    top: 50px;
+    left: 0;
+}
+
+.a-h-mmrbox .a-h-b-words {
+    bottom: 20px;
+    left: 45px;
+}
+
+.a-h-dqnjbox .a-h-b-words {
+    bottom: 20px;
+    left: 45px;
+}
+
+.a-h-zygbox .a-h-b-words {
+    top: 50px;
+    right: 0;
+}
+
+.a-h-b-words span {
+    color: #fff;
+    font: 12px/20px "microsoft yahei";
+    display: block;
+    border-bottom: 2px solid #fff;
+    padding-bottom: 10px;
+}
+
+.a-h-b-words a {
+    color: #FFB400;
+    font: 12px "simsun";
+}
+
+/*history部分 E*/
+
+/*introduce部分 E*/
+.car-introduce li {
+    width: 33.333333%;
+    position: relative;
+    overflow: hidden;
+}
+
+.car-introduce li img {
+    width: 100%;
+}
+
+.car-introduce li div {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    position: absolute;
+    left: 450px;
+}
+
+.car-introduce li div img {
+    width: 100%;
+}
+
+/*introduce部分 E*/
+
+/*car title部分 B*/
+.a-car-title {
+    height: 200px;
+    background: rgba(0, 0, 0, 0.8);
+    font: 900 normal 30px/200px "黑体";
+    text-align: center;
+    color: #fff;
+}
+
+.a-car-title span {
+    font: 900 normal 50px/200px "黑体";
+    color: #fff;
+}
+
+/*car title部分 E*/
+
+/*four main car部分 E*/
+.four-main-car li  {
+    position: relative;
+}
+
+.four-main-car li img {
+    width: 100%;
+}
+
+.four-main-car li div {
+    width: 1280px;
+    height: 490px;
+    position: absolute;
+    top: 0;
+    left: 0px;
+}
+
+/*four main car部分 E*/

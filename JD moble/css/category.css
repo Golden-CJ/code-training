@@ -1,0 +1,63 @@
+html,body {
+    height: 100%;
+    overflow: hidden;
+}
+.categoryBox {
+    min-width: 300px;
+    max-width: 640px;
+    overflow: hidden;
+    height: 100%;
+    margin: 0 auto;
+}
+.JD_category {
+    height: 100%;
+    overflow: hidden;
+}
+.JD_category .categoryLeft {
+    height: 100%;
+    width: 90px;
+    float: left;
+    overflow: hidden;
+}
+.JD_category .categoryLeft ul li {
+    height: 50px;
+    line-height: 50px;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    background: #f3f4f6;
+    text-align: center;
+}
+.JD_category .categoryLeft ul li a {
+    display: block;
+}
+
+.JD_category .categoryLeft ul li.show {
+    background: #FFFFFF;
+    border-right: none;
+}
+.JD_category .categoryLeft ul li.show a {
+    color: #d8505c;
+}
+.JD_category .categoryRight {
+    height: 100%;
+    overflow: hidden;
+}
+.JD_category .categoryRight .categoryRightBody {
+    margin: 10px;
+}
+.JD_category .categoryRight .categoryRightBody .categoryRightPic img {
+    width: 100%;
+}
+.JD_category .categoryRight .categoryRightBody .categoryRightItem h3 {
+    font-size: 14px;
+}
+.JD_category .categoryRight .categoryRightBody .categoryRightItem ul li {
+    float: left;
+    text-align: center;
+    width: 33.333333%;
+    font-size: 12px;
+    margin-top: 8px;
+}
+.JD_category .categoryRight .categoryRightBody .categoryRightItem ul li img {
+    width: 60%;
+}

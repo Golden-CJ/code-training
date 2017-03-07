@@ -1,0 +1,710 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>jeep专业suv制造者</title>
+    <link rel="stylesheet" href="css/reset.css"/>
+    <link rel="stylesheet" href="css/common.css"/>
+    <link rel="stylesheet" href="css/grand_cherokee.css"/>
+    <script src="js/jquery-1.12.2.js"></script>
+    <script src="js/mytools.js"></script>
+    <script src="js/common.js"></script>
+    <script src="js/s-index.js"></script>
+    <style>
+
+        #wellcome {
+            display: none;
+            position: absolute;
+            top: 67px;
+            left: 0;
+            color: #999;
+            font-size: 50px;
+            z-index: 99;
+        }
+
+        #wellcome li {
+            position: absolute;
+            left: -100px;
+            /*width: 100px;*/
+            height: 50px;
+            line-height: 50px;
+        }
+        /*#wellcome .one{
+            width: 50px;
+        }
+        #wellcome .two{
+            width: 500px;
+        }
+        #wellcome .thr{
+            width: 800px;
+        }*/
+    </style>
+</head>
+<body>
+<!--<div id="mask"></div>-->
+<!--头部开始-->
+<div class="f-headerHight"></div>
+<div class="f-header">
+    <div class="w">
+        <div class="logo fl" id="logo">
+            <a href="../index.html"><img src="images/nav_logo.png" alt="jeep"/></a>
+            <ul id="wellcome">
+            </ul>
+        </div>
+        <ul class="nav fr" id="nav">
+            <li class="navTab"><span>车型</span>
+                <div class="navTabCar" id="navTabCar">
+                    <ul>
+                        <li>
+                            <div class="img"><a href="#"><img src="images/nav_n1.jpg"></a></div>
+                            <div class="txt">
+                                <img src="images/nav_n4.jpg">
+                                <a class="booking" href="#"></a>
+                                <a href="#" class="more"></a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="img"><a href="#"><img src="images/nav_n3.jpg"></a></div>
+                            <div class="txt">
+                                <img src="images/nav_n6.jpg">
+                                <a class="booking" href="#"></a>
+                                <a href="#" class="more"></a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="img"><a href="#"><img src="images/nav_n2.jpg"></a></div>
+                            <div class="txt">
+                                <img src="images/nav_n5.jpg">
+                                <a class="booking" href="#"></a>
+                                <a href="#" class="more"></a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="img"><a href="#"><img src="images/nav_n7.jpg"></a></div>
+                            <div class="txt">
+                                <img src="images/nav_n10.jpg">
+                                <a class="booking" href="#"></a>
+                                <a href="#" class="more"></a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="img"><a href="#"><img src="images/nav_n8.jpg"></a></div>
+                            <div class="txt">
+                                <img src="images/nav_n11.jpg">
+                                <a class="booking" href="#"></a>
+                                <a href="#" class="more"></a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="img"><a href="#"><img src="images/nav_n9.jpg"></a></div>
+                            <div class="txt">
+                                <img src="images/nav_n12.jpg">
+                                <a class="booking" href="#"></a>
+                                <a href="#" class="more"></a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li class="navTab">
+                <span>金融服务</span>
+
+                <div class="subNav">
+                    <ul>
+                        <li><a href="#">自由享金融</a></li>
+                        <li><a href="#">自由享置换</a></li>
+                        <li><a href="#">金融计算器</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li class="navTab">
+                <span>Jeep商城</span>
+
+                <div class="subNav"> <ul>
+                    <li><a href="#">全新牧马人</a></li>
+                    <li><a href="#">全新自由光</a></li>
+                    <li><a href="#">畅销SUV</a></li>
+                    <li><a href="#">品味专业</a></li>
+                </ul></div>
+            </li>
+            <li class="navTab">
+                <span>Jeep Life</span>
+
+                <div class="subNav">
+                    <ul>
+                        <li><a href="#">探享俱乐部</a></li>
+                        <li><a href="#">品牌介绍</a></li>
+                        <li><a href="#">新闻资讯</a></li>
+                        <li><a href="#">最新活动</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li class="navTab">
+                <span>车主服务</span>
+
+                <div class="subNav">
+                    <ul>
+                        <li><a href="#">全境界服务简介</a></li>
+                        <li><a href="#">24小时全路况救援</a></li>
+                        <li><a href="#">出行管家服务</a></li>
+                        <li><a href="#">辰星守候服务</a></li>
+                        <li><a href="#">"汽车三包"政策</a></li>
+                        <li><a href="#">Mopar®原装进口配件</a></li>
+                        <li><a href="#">安全驾驶培训</a></li>
+                        <li><a href="#">车架号查询</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li class="deale"><a href="#"><img src="images/nav02.png" alt=""/>查找经销商</a></li>
+            <li class="appointment"><a href="#"><img src="images/nav03.png" alt=""/>预约试驾</a></li>
+            <li class="navTab" id="join">
+                <span>加入我们</span>
+
+                <div class="subNav">
+                    <ul>
+                        <li><a href="#">招聘信息</a></li>
+                        <li><a href="#">申请经销商</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li class="navTab" id="search">
+                <i></i>
+
+                <div class="subNav">
+                    <ul>
+                        <li class="clearfix"><input type="text" placeholder="全新自由光"/><input type="button"/></li>
+                    </ul>
+                </div>
+            </li>
+        </ul>
+        <div class="f-rightNav" id="f_rightNav">
+            <ul>
+                <li><a href="#"><img src="images/nav02(1).png" alt=""/><span>金融政策</span></a></li>
+                <li><a href="#"><img src="images/nav03(1).png" alt=""/><span>定制我的Jeep</span></a></li>
+                <li><a href="#"><img src="images/nav04.png" alt=""/><span>车型对比</span></a></li>
+                <li><a href="#"><img src="images/nav05(1).png" alt=""/><span>预约试驾</span></a></li>
+                <li><a href="#"><img src="images/nav06(1).png" alt=""/><span>在线咨询</span></a></li>
+                <li><a href="#"><img src="images/nav07(1).png" alt=""/><span>Click Me</span></a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<!--头部结束-->
+<!--top-nav开始-->
+<div class="s-topnav clearfix">
+    <div class="w">
+        <div class="nav-title" id="navTitle">
+            <div class="nave-titleText"><span></span>
+
+                <p>进口全新大切诺基</p></div>
+            <div class="n-tt" id="sss">
+                <ul>
+                    <li><a href="#">返回顶部</a></li>
+                    <li><a href="#">配置概览</a></li>
+                    <li><a href="#">精湛设计</a></li>
+                    <li><a href="#">高效动力</a></li>
+                    <li><a href="#">精准操控</a></li>
+                    <li><a href="#">智能安全</a></li>
+                    <li><a href="#">安全驾驶</a></li>
+                </ul>
+            </div>
+        </div>
+        <ul class="ul">
+            <li><a href="#">概述</a></li>
+            <li><a href="#">配置与参数</a></li>
+            <li><a href="#">高效动力总成</a></li>
+            <li><a href="#">精湛设计</a></li>
+            <li><a href="#">专业级全路况</a></li>
+            <li><a href="#">精准操控舒适</a></li>
+            <li><a href="#">领先完备安全</a></li>
+            <li><a href="#">图片与视频 </a></li>
+        </ul>
+    </div>
+</div>
+<div class="s-banner clearfix" id="box">
+    <div class="screen">
+        <ul>
+            <li><img src="images/s-images/kv1.jpg" width="1520px" height="442px"/></li>
+            <li><img src="images/s-images/kv2.jpg" alt="" width="1520px" height="442"/></li>
+        </ul>
+        <ol></ol>
+    </div>
+    <div id="arr"><span id="left">&lt;</span><span id="right">&gt;</span></div>
+</div>
+<!--top-nav结束-->
+<!--news开始-->
+<div class="s-news">
+    <div class="s-newsTop">
+        <div class="advantage">
+            <div class="text-top">
+                <p>高效平顺的“十佳”</p>
+
+                <p>8速动力总成</p>
+            </div>
+            <p class="text"><span>全球十佳</span>6冠王</p>
+
+            <p class="text">V6引擎</p>
+        </div>
+        <div class="advantage">
+            <div class="text-top">
+                <p>精准的公路操控和</p>
+
+                <p>绝佳的乘坐舒适性</p>
+            </div>
+            <p class="text"><span>3种</span>调教模式</p>
+
+            <p class="text">覆盖多种驾驶模式</p>
+        </div>
+        <div class="advantage">
+            <div class="text-top">
+                <p>领先而完备的</p>
+
+                <p>安全性</p>
+            </div>
+            <p class="text">全车<span>61%</span></p>
+
+            <p class="text">使用高强度钢</p>
+        </div>
+        <div class="advantage-last">
+            <div class="text-top">
+                <p>专业的</p>
+
+                <p>全路况能力</p>
+            </div>
+            <p class="text"><span>7种</span>路况</p>
+
+            <p class="text">驾驶模式</p>
+        </div>
+    </div>
+    <div class="s-newsCenter">
+        <div class="navBox">
+            <ul class="nav1">
+                <li style="width: 287px;" class="" src="images/s-images/car20.png"><a id="nav2_1" href="javascript:;">3.0TD</a></li>
+                <li style="width: 287px;" src="images/s-images/car32.png" class=""><a id="nav2_2" href="javascript:;">3.0L V6</a></li>
+                <li style="border-right: 0;width: 286px;" src="images/s-images/car42.png" class="on"><a id="nav2_3" href="javascript:;">3.6L V6</a></li>
+
+            </ul>
+            <ul class="navCar navCar2" style="display: none;">
+                <li class="on" src="images/s-images/car20.png">
+                    <img src="images/s-images/co1.png">
+
+                    <p>3.0TD舒享导航版<br>
+                        <span>59.99万</span></p>
+                </li>
+                <li src="images/s-images/car22.png">
+                    <img src="images/s-images/co2.png">
+
+                    <p>3.0TD精英导航版<br>
+                        <span>62.99万</span></p>
+                </li>
+                <li src="images/s-images/car75_1.png">
+                    <img src="images/s-images/co75_1.png">
+
+                    <p>3.0TD75周年致敬版<br>
+                        <span>65.99万</span></p>
+                </li>
+            </ul>
+            <ul class="navCar navCar2" style="display: none;">
+                <li class="on" src="images/s-images/car32.png">
+                    <img src="images/s-images/co3_1.png">
+
+                    <p>3.0L 专业版<br>
+                        <span>55.99万</span></p>
+                </li>
+                <li src="images/s-images/car32.png">
+                    <img src="images/s-images/co3.png">
+
+                    <p>3.0L 舒享导航版<br>
+                        <span>57.99万</span></p>
+                </li>
+                <li src="images/s-images/car29.png">
+                    <img src="images/s-images/co4.png">
+
+                    <p>3.0L精英导航版<br>
+                        <span>60.99万</span></p>
+                </li>
+            </ul>
+            <ul class="navCar navCar4" style="display: block;">
+                <li class="on" src="images/s-images/car23.png">
+                    <img src="images/s-images/co5.png">
+
+                    <p>3.6L精英导航版<br>
+                        <span>63.99万</span></p>
+                </li>
+                <li src="images/s-images/car75_5.png">
+                    <img src="images/s-images/co75_2.png">
+
+                    <p>3.6L75周年致敬版<br>
+                        <span>67.99万</span></p>
+                </li>
+                <li src="images/s-images/car41.png">
+                    <img src="images/s-images/co7.png">
+                    <p>3.6L豪华导航版<br>
+                        <span>68.99万</span></p>
+                </li>
+                <li src="images/s-images/car29.png">
+                    <img src="images/s-images/co4.png">
+
+                    <p>3.6L旗舰尊耀版<br>
+                        <span>75.99万</span></p>
+                </li>
+            </ul>
+
+        </div>
+
+
+        <!--</div>-->
+        <div class="text">
+            <div id="txtLine" class="txtLine">
+                <p>详细参数配置</p>
+
+                <div class="txtl">
+                    <ul style="display: block;">
+                        <li>• 蝉联2014-2015"全球十佳"称号</li>
+                        <li>• 无钥匙进入/启动系统</li>
+                        <li> 3.0TD EcoDiesel V6 柴油发动机</li>
+                        <li>• Selec-Terrain<sup>®</sup> 路况模式自选系统</li>
+                        <li>• 前后排座椅加热</li>
+                        <li>• Quadra-Trac<sup>®</sup>全时四驱系统</li>
+                        <li>• 7" 客户自定义液晶仪表系统</li>
+                        <li>• 8.4" Uconnect 液晶中控系统</li>
+                        <li>• 巡航控制系统</li>
+                    </ul>
+                    <ul>
+                        <li>• 蝉联2014-2015"全球十佳"称号</li>
+                        <li>• 无钥匙进入/启动系统</li>
+                        <li> 3.0TD EcoDiesel V6 柴油发动机</li>
+                        <li class="ye">• 增强型防盗报警系统</li>
+                        <li class="ye">• 前排座椅：通风加热功能；</li>
+                        <li>• Selec-Terrain<sup>®</sup> 路况模式自选系统</li>
+                        <li> &nbsp;&nbsp;后排座椅加热</li>
+                        <li>• Quadra-Trac<sup>®</sup>全时四驱系统</li>
+                        <li>• 7" 客户自定义液晶仪表系统</li>
+                        <li class="ye">• Quadra-Lift<sup>®</sup>空气悬架系统</li>
+                        <li>• 8.4" Uconnect 液晶中控系统</li>
+                        <li>• 巡航控制系统</li>
+                    </ul>
+                    <ul>
+                        <li>• 蝉联2014-2015"全球十佳"称号</li>
+                        <li>• 无钥匙进入/启动系统</li>
+                        <li>3.0TD EcoDiesel V6 柴油发动机</li>
+                        <li>• 增强型防盗报警系统</li>
+                        <li>• 前排座椅：通风加热功能；后排座椅加热</li>
+                        <li>• Selec-Terrain® 路况模式自选系统</li>
+                        <li>• Quadra-Trac®全时四驱系统</li>
+                        <li>• 7" 客户自定义液晶仪表系统</li>
+                        <li>• Quadra-Lift®空气悬架系统</li>
+                        <li>• 8.4" Uconnect 液晶中控系统</li>
+                        <li>• 巡航控制系统</li>
+                        <li class="ye">• Jeep 75周年致敬版专属外观套件</li>
+                        <li></li>
+                        <li class="ye">• Jeep 75周年致敬版专属内饰套装</li>
+                        <li></li>
+                        <li class="ye">• LED前雾灯</li>
+                    </ul>
+                </div>
+                <div class="txtl">
+                    <ul>
+                        <li>• 3.0L Pentastar V6全铝发动机</li>
+                        <li>• 无钥匙进入/启动系统</li>
+                        <li>• 前后排座椅加热</li>
+                        <li>• Selec-Terrain<sup>®</sup> 路况模式自选系统</li>
+                        <li>• 7" 客户自定义液晶仪表系统</li>
+                        <li>• Quadra-Trac<sup>®</sup>全时四驱系统</li>
+                        <li>• 8.4" Uconnect 液晶中控系统</li>
+                        <li>• 巡航控制系统</li>
+                    </ul>
+                    <ul>
+                        <li>• 3.0L Pentastar V6全铝发动机</li>
+                        <li>• 无钥匙进入/启动系统</li>
+                        <li>• 前后排座椅加热</li>
+                        <li>• Selec-Terrain<sup>®</sup> 路况模式自选系统</li>
+                        <li>• 7" 客户自定义液晶仪表系统</li>
+                        <li>• Quadra-Trac<sup>®</sup>全时四驱系统</li>
+                        <li>• 8.4" Uconnect 液晶中控系统</li>
+                        <li>• 巡航控制系统</li>
+                    </ul>
+                    <ul>
+                        <li>• 3.0L Pentastar V6全铝发动机</li>
+                        <li>• 巡航控制系统</li>
+                        <li class="ye">• 前排座椅：通风加热功能；</li>
+                        <li>• 无钥匙进入/启动系统</li>
+                        <li>  &nbsp;&nbsp;后排座椅加热功能</li>
+                        <li>• Selec-Terrain<sup>®</sup>路况模式自选系统</li>
+                        <li>• 7" 客户自定义液晶仪表系统</li>
+                        <li>• Quadra-Trac<sup>®</sup>全时四驱系统</li>
+                        <li>• 8.4" Uconnect 液晶中控系统</li>
+                        <li class="ye">• Quadra-Lift<sup>®</sup>空气悬架系统</li>
+                        <li class="ye">• 增强型防盗报警系统</li>
+                    </ul>
+                </div>
+                <div class="txtl">
+                    <ul>
+                        <li>• 3.6L Pentastar V6全铝发动机</li>
+                        <li>• 无钥匙进入/启动系统</li>
+                        <li>• 前后排座椅加热</li>
+                        <li>• Selec-Terrain<sup>®</sup> 路况模式自选系统</li>
+                        <li>• 7" 客户自定义液晶仪表系统</li>
+                        <li>• Quadra-Trac<sup>®</sup>全时四驱系统</li>
+                        <li>• 8.4" Uconnect 液晶中控系统</li>
+                        <li>• Quadra-Lift<sup>®</sup>空气悬架系统</li>
+                        <li>• 巡航控制系统</li>
+                    </ul>
+                    <ul>
+                        <li>• 3.6L Pentastar V6全铝发动机</li>
+                        <li>• 无钥匙进入/启动系统</li>
+                        <li>• 前后排座椅加热</li>
+                        <li>• Selec-Terrain® 路况模式自选系统</li>
+                        <li>• 7" 客户自定义液晶仪表系统</li>
+                        <li>• Quadra-Trac®全时四驱系统</li>
+                        <li>• 8.4" Uconnect 液晶中控系统</li>
+                        <li>• Quadra-Lift®空气悬架系统</li>
+                        <li>• 巡航控制系统</li>
+                        <li class="ye">• Jeep 75周年致敬版专属外观套件</li>
+                        <li class="ye">• Jeep 75周年致敬版专属内饰套装</li>
+                        <li class="ye">• LED前雾灯</li>
+                    </ul>
+                    <ul>
+                        <li>• 3.6L Pentastar V6全铝发动机</li>
+                        <li class="ye">• 盲点监测系统(BSM)</li>
+                        <li class="ye">• 前排座椅：通风加热功能；</li>
+                        <li class="ye">• 前撞预警系统(FCW)</li>
+                        <li>  &nbsp;&nbsp;后排座椅加热功能</li>
+                        <li class="ye">• 自适应巡航控制系统（ACC）</li>
+                        <li>• 7" 客户自定义液晶仪表系统</li>
+                        <li>• 无钥匙进入/启动系统</li>
+                        <li>• 8.4" Uconnect 液晶中控系统</li>
+                        <li>• Selec-Terrain<sup>®</sup> 路况模式自选系统</li>
+                        <li class="ye">• 增强型防盗报警系统</li>
+                        <li>• Quadra-Trac<sup>®</sup>全时四驱系统</li>
+                        <li></li>
+                        <li>• Quadra-Lift<sup>®</sup>空气悬架系统</li>
+                    </ul>
+                    <ul class="spe">
+                        <li>• 3.6L Pentastar V6全铝发动机</li>
+                        <li class="ye">• Harman Kardon<sup>®</sup> 19扬声器顶级音响系统</li>
+                        <li>• 前排座椅：通风加热功能；</li>
+                        <li class="ye">• 后排9英寸双屏独立HDMI智能影音娱乐系统</li>
+                        <li>  &nbsp;&nbsp;后排座椅加热功能</li>
+                        <li class="ye">• 旗舰专属绒面顶棚及豪华木饰镶嵌</li>
+                        <li>• 7" 客户自定义液晶仪表系统</li>
+                        <li class="ye">• 旗舰尊耀版专属亚光镀铬套件</li>
+                        <li>• 8.4" Uconnect 液晶中控系统</li>
+                        <li class="ye">• 前大灯自适照明系统（AFS）</li>
+                        <li>• 增强型防盗报警系统</li>
+                        <li>• 盲点监测系统(BSM)</li>
+                        <li class="ye">• 多功能方向盘—木饰镶嵌</li>
+                        <li>• 前撞预警系统(FCW)</li>
+                        <li class="ye">• Natura Plus豪华真皮皮椅</li>
+                        <li>• 自适应巡航控制系统（ACC）</li>
+                        <li></li>
+                        <li>• 无钥匙进入/启动系统</li>
+                        <li></li>
+                        <li>• Selec-Terrain<sup>®</sup>路况模式自选系统</li>
+                        <li></li>
+                        <li>• Quadra-Trac<sup>®</sup>全时四驱系统</li>
+                        <li></li>
+                        <li>• Quadra-Lift<sup>®</sup>空气悬架系统</li>
+                    </ul>
+                </div>
+
+            </div>
+            <div class="btn">
+                <a href="#">
+                    <img src="images/s-images/newbtn.png" alt="">
+                </a>
+            </div>
+        </div>
+
+    </div>
+    <div class="s-newsBottom">
+        <div class="n-w">
+            <div class="check-box">
+                <ul id="checkbox">
+                    <li><img src="images/s-images/co31.png" alt=""></li>
+                    <li><img src="images/s-images/co32.png" alt=""></li>
+                    <li><img src="images/s-images/co33.png" alt=""></li>
+                    <li><img src="images/s-images/co34.png" alt=""></li>
+                    <li><img src="images/s-images/co35.png" alt=""></li>
+                    <li><img src="images/s-images/co36.png" alt=""></li>
+                    <li><img src="images/s-images/co37.png" alt=""></li>
+                    <li><img src="images/s-images/co38.png" alt=""></li>
+                    <li><img src="images/s-images/co39.png" alt=""></li>
+                </ul>
+            </div>
+            <div class="car-img">
+                <img id="carImg" src="images/s-images/car42.png" alt="" width="100%" height="100%">
+            </div>
+        </div>
+    </div>
+
+</div>
+<!--news结束-->
+<!--mian开始-->
+<!--<div class="w">-->
+<div class="s-mian">
+    <div class="tit">
+        <div class="author"></div>
+        <h3>精湛设计</h3></div>
+    <div class="design">
+        <div class="design1"></div>
+        <div class="design2">
+            <h4>外观</h4>
+
+            <div class="midbox" style="display: block">
+                <div class="bt1">
+                    <img src="images/s-images/design2.jpg">
+                    <a class="icon" id="icon" href="javascript:;"><img src="images/s-images/design2_icon.png"></a>
+                    <a class="fdj" id="fdj" href="javascript:;"><img src="images/s-images/icon0.png"></a>
+
+                    <div id="pupcon">
+                        <div class="midbox">
+                            <img src="images/s-images/pup1.jpg">
+
+                            <div class="txtcon">
+                                <h3>标志性的LED前大灯系统</h3>
+                                <b id="b"></b>
+
+                                <span>前日间行车灯和转向指示灯均采用<br>环绕式LED造型，即便远距离也能<br>一眼识别，让美观与行车安全兼得。<br>同时隐藏于前大灯的清洗装置能有效<br>保证亮度，进一步提升整车豪华感。
+                                </span>
+                            </div>
+                            <a id="closepup" href="javascript:;"><img
+                                    src="images/s-images/closepup.png"></a>
+
+                            <a class="pupbt" href="#"><img src="images/s-images/pupbtn1.png"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="bt2">
+                    <img src="images/s-images/design3.jpg">
+                    <a class="icon" href="javascript:;"><img src="images/s-images/design3_icon.png"></a>
+                    <a class="fdj" href="javascript:;"><img src="images/s-images/icon0.png"></a>
+
+
+                </div>
+                <div class="bt3">
+                    <img src="images/s-images/design4.jpg">
+                    <a class="icon" href="javascript:;"><img src="images/s-images/design4_icon.png"></a>
+                    <a class="fdj" href="javascript:;"><img src="images/s-images/icon0.png"></a>
+                </div>
+                <p class="txt1">标志性的LED前大灯系统</p>
+
+                <p class="txt2">整体车身底部双色设计</p>
+
+                <p class="txt3">标志性的LED后尾灯系统</p>
+            </div>
+        </div>
+        <div class="design3">
+            <h4>内饰</h4>
+
+            <p>Natural Plus真皮桶式座椅 &nbsp;&nbsp;|&nbsp;&nbsp;灵感源自全球绝美圣境地貌的考究内饰 <br>超大型Command View®全景天窗 &nbsp;&nbsp;|&nbsp;&nbsp;
+            </p>
+        </div>
+        <div class="design4">
+            <div class="midbox">
+                <div class="bt1">
+                    <img src="images/s-images/design6.jpg">
+                    <a class="icon" href="javascript:;"><img src="images/s-images/design6_icon.png"></a>
+                    <a class="fdj" href="javascript:;"><img src="images/s-images/icon0.png"></a>
+
+                </div>
+                <div class="bt2">
+                    <img src="images/s-images/design7.jpg">
+                    <a class="icon" href="javascript:;"><img src="images/s-images/design7_icon.png"></a>
+                    <a class="fdj" href="javascript:;"><img src="images/s-images/icon0.png"></a>
+                </div>
+                <div class="bt3"><img src="images/s-images/design8.jpg"><span>灵感源自全球<br>绝美圣境地貌的考究内饰</span>
+                    <a class="icon" href="javascript:;"><img src="images/s-images/design8_icon.png"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+</div>
+<!--main结束-->
+<!--底部开始-->
+<div class="f-footer">
+    <div class="ftMap">
+        <dl>
+            <dt>车型</dt>
+            <dd><a href="#">全新指南者</a></dd>
+            <dd><a href="#">进口全新大切诺基</a></dd>
+            <dd><a href="#">进口牧马人</a></dd>
+            <dd><a href="#">全新自由光</a></dd>
+            <dd><a href="#">全新自由侠</a></dd>
+        </dl>
+        <dl>
+            <dt>金融服务</dt>
+            <dd><a href="#">自由享金融</a></dd>
+            <dd><a href="#">自由享置换</a></dd>
+            <dd><a href="#">金融计算器</a></dd>
+        </dl>
+        <dl>
+            <dt>Jeep商城</dt>
+            <dd><a href="#">订车宝</a></dd>
+            <dd><a href="#">预约试驾</a></dd>
+            <dd><a href="#">查询经销商</a></dd>
+            <dd><a href="#">即刻接通经销商</a></dd>
+            <dd><a href="#">车型对比</a></dd>
+            <dd><a href="#">定制我的Jeep</a></dd>
+            <dd><a href="#">下载电子产品手册</a></dd>
+            <dd><a id="#">在线咨询</a></dd>
+        </dl>
+        <dl>
+            <dt>Jeep Life</dt>
+            <dd><a href="#">探享俱乐部</a></dd>
+            <dd><a href="#">品牌介绍</a></dd>
+            <dd><a href="#">新闻资讯</a></dd>
+            <dd><a href="#">最新活动</a></dd>
+        </dl>
+        <dl>
+            <dt>加入我们</dt>
+            <dd><a href="#">招聘信息</a></dd>
+            <dd><a href="#">申请经销商</a></dd>
+        </dl>
+        <dl>
+            <dt>车主服务</dt>
+            <dd><a href="#">全境界服务简介</a></dd>
+            <dd><a href="#">24小时全路况救援</a></dd>
+            <dd><a href="#">出行管家服务</a></dd>
+            <dd><a href="#">辰星守候服务</a></dd>
+            <dd><a href="#">“汽车三包”政策</a></dd>
+            <dd><a href="#">Mopar<span class="r">®</span>原装进口配件</a></dd>
+            <dd><a href="#">安全驾驶培训</a></dd>
+            <dd><a href="#">车架号查询</a></dd>
+        </dl>
+        <dl class="content">
+            <dt>专享热线</dt>
+            <dd class="ftTel">400 6500 118</dd>
+            <dd><a href="#"><img src="images/footer01.png">微博</a></dd>
+            <dd><a href="#"><img src="images/footer02.png">微信</a></dd>
+        </dl>
+    </div>
+    <div class="ftCopyRight">
+        <div class="ftCopyRightBox">
+            <p class="link">
+                <a href="#">Global Site</a> |
+                <a href="#">隐私条款</a> |
+                <a href="#">联系我们</a> |
+                <a href="#">加入我们</a> |
+                <a href="#">网站地图</a> |
+                <a href="#">手机版</a>
+            </p>
+
+            <p class="disc">网站中所有产品图片及文字说明均有可能变更。克莱斯勒[中国]汽车销售有限公司/广汽菲亚特克莱斯勒汽车销售有限公司保留对所描述车型进行更改的权利，<br>
+                并且任何时候都无需承担因以产品改进为目的的设计和[或]市场营销等原因而必须提前通知的义务。<br>
+                沪ICP备09014236号-12
+            </p>
+
+            <div class="logos">
+                <a href="#"><img src="images/footer05.png"></a>
+                <a href="#"><img src="images/footer04.png"></a>
+                <a href="#"><img src="images/footer03.png"></a>
+            </div>
+        </div>
+    </div>
+</div>
+<!--底部结束-->
+</body>
+</html>

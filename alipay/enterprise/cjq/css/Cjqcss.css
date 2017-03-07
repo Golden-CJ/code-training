@@ -1,0 +1,220 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+.Cw {
+    width: 990px;
+    margin: 0 auto;
+}
+.fl {
+    float: left;
+}
+ul {
+    list-style: none;
+}
+.clearfix:after {
+    content: "";
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+    display:block;
+    clear: both;
+}
+/*服务介绍 begin*/
+.Csev {
+    width: 990px;
+    height: 280px;
+    margin: 0 auto;
+}
+.csevtop {
+    height: 150px;
+    border-top: 1px solid #fff;
+}
+
+.csevtop h3 {
+    margin-top: 43px;
+    margin-left: 33px;
+    color: #4C4C4C;
+    font: normal normal 24px "microsoft yahei" ;
+}
+.csevtop ul {
+    margin: 2px 0 6px 33px;
+}
+
+.csevtop ul li {
+    float: left;
+}
+.csevtop a {
+    text-decoration: none;
+    font: 12px/1.5 tahoma,arial,"Hiragino Sans GB";
+    color: #666;
+}
+.csevtop a:hover {
+    color: red;
+}
+
+.csevbottom a{
+    text-decoration: none;
+    font: 12px/1.5 tahoma,arial,"Hiragino Sans GB";
+    color: #666;
+}
+.csevbottom a:hover {
+    color: red;
+}
+
+.csevtop p {
+    margin-left: 33px;
+}
+.csevtop p a {
+    margin-left: 11px;
+}
+.cica {
+    margin-left: 11px;
+}
+.ctl {
+    width: 300px;
+    height: 150px;
+}
+.ctc {
+    width: 300px;
+    height: 150px;
+    margin: 0 45px;
+}
+.ctr {
+    width: 300px;
+    height: 150px;
+}
+.cicon {
+    display: inline-block;
+    width: 31px;
+    height: 16px;
+    background-image: url(../images/hot.png);
+    vertical-align: middle;
+}
+.Csmallicon1 {
+    display: inline-block;
+    width: 31px;
+    height: 16px;
+    background-image: url(../images/gonggao.png);
+    vertical-align: middle;
+}
+.Csmallicon2 {
+    display: inline-block;
+    width: 31px;
+    height: 16px;
+    background-image: url(../images/gonggao.png);
+    vertical-align: middle;
+}
+.Csmallicon3 {
+    display: inline-block;
+    width: 31px;
+    height: 16px;
+    background-image: url(../images/hot.png);
+    vertical-align: middle;
+}
+
+
+
+.csevbottom {
+    height: 128px;
+    border-top: 1px solid #E6E6E6;
+}
+.cbottoml {
+    width: 300px;
+    height: 128px;
+}
+.cbotton-icon1 {
+    width: 33px;
+    height: 40px;
+    background-image: url(../images/cboticon1.png);
+    margin: 30px 12px 0 33px;
+}
+.csevbottom h4 {
+    font: normal normal 16px "microsoft yahei" ;
+    margin-top: 30px;
+}
+.cbottomc {
+    width: 300px;
+    height: 128px;
+    margin: 0 45px;
+}
+.cbotton-icon2 {
+    width: 41px;
+    height: 35px;
+    background-image: url(../images/cboticon2.png);
+    margin: 30px 12px 0 33px;
+}
+.cbottomr {
+    width: 300px;
+    height: 128px;
+}
+.cbotton-icon3 {
+    width: 42px;
+    height: 42px;
+    background-image: url(../images/cboticon3.png);
+    margin: 30px 12px 0 33px;
+}
+
+/*服务介绍 end*/
+/*底部 begin*/
+.Cfoot {
+    background-image: url(../images/footbg.png);
+    height: 280px;
+    color: #666666;
+}
+em {
+    font-style: normal;
+    font-size: 14px;
+    padding: 0 5px;
+    color: #cccccc;
+}
+.cfirst {
+    height: 83px;
+}
+.cfone {
+    font-size: 12px;
+    width: 578px;
+    margin: 0 auto;
+    padding-top: 53px;
+}
+.cftwo {
+    width: 630px;
+    margin: 0 auto;
+}
+.Cfoot li {
+    float: left;
+}
+.Cfoot a{
+    text-decoration: none;
+    font: 12px tahoma,arial,"Hiragino Sans GB";
+    color: #666;
+}
+.Cfoot a:hover {
+    text-decoration: underline;
+}
+.finally {
+    background: url("../images/bottomimg.png")no-repeat;
+    display: block;
+    width: 561px;
+    height: 30px;
+    margin: 0 auto;
+}
+.cthird {
+    margin-top: 20px;
+}
+.clunbo {
+    height: 35px;
+    margin-top: 10px;
+}
+.cmask {
+    width: 60px;
+    height: 35px;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+}
+#cjqLbt {
+    position: absolute;
+}
+/*底部 end*/
